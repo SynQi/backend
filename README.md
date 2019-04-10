@@ -4,7 +4,7 @@
 
 - [x] **Pakages Install**
 
-*Execute* no ***Terminal*** do diretório da **API** o seguinte comando:
+Através do **Terminal** no *diretório* da **API** execute o seguinte comando:
 ```
 yarn install
 ```
@@ -31,4 +31,4 @@ yarn dev
 npm run dev
 ```
 
-**API** em desenvolvimento, este ***guia*** poderá haver alterações conforme *updates* futuros.
+- **API** em desenvolvimento, este ***guia*** poderá haver alterações conforme *updates* futuros.
