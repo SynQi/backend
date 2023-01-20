@@ -12,9 +12,8 @@ module.exports = {
             crypto.randomBytes(16, (err, hash) => {
                 if (err) cb(err);
 
-                /* file.key irá gerar
+                /* file.key irá gerar um arquivo
                  * ex: 13215yeas54s564a-teste.jpg
-                 * (exemplo aleatório)
                  */
                 file.key = `${hash.toString('hex')}-${file.originalname}`;
 
